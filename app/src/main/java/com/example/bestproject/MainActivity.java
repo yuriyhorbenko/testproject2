@@ -41,10 +41,11 @@ private String TAG = "MainActivity";
         open_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ctx,DetailActivity.class);
-                intent.putExtra("name","My name is Yura");
-                intent.putExtra("age",25);
-                startActivity(intent);
+//                Intent intent = new Intent(ctx,DetailActivity.class);
+//                intent.putExtra("name","My name is Yura");
+//                intent.putExtra("age",25);
+                Intent sprefIntent =  new Intent(ctx,DBActivity.class);
+                startActivity(sprefIntent);
             }
         });
 
