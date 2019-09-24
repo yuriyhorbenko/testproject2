@@ -15,6 +15,7 @@ public class FragmentContainerActivity extends FragmentActivity implements Fragm
 
     @Override
     public void onFragmentInteraction(Uri uri){
+        //Fragment1 fragment1 = Fragment1.newInstance();
         //you can leave it empty
     }
 

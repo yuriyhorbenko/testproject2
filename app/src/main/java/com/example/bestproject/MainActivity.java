@@ -44,7 +44,7 @@ private String TAG = "MainActivity";
 //                Intent intent = new Intent(ctx,DetailActivity.class);
 //                intent.putExtra("name","My name is Yura");
 //                intent.putExtra("age",25);
-                Intent sprefIntent =  new Intent(ctx,FragmentContainerActivity.class);
+                Intent sprefIntent =  new Intent(ctx,InflaterActivity.class);
                 startActivity(sprefIntent);
             }
         });
